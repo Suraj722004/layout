@@ -1,0 +1,72 @@
+.layout{
+    border: 2px solid;
+    height: 700px;
+    width: 900px;
+    display: flex;
+    margin: auto;
+    background-color: brown ;
+}
+
+.box1,.box2{
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+    
+}
+
+.second_layout,.img3{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 150px;
+    margin: 10px;
+    
+}
+
+.mini2{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+.abc, .xyz{
+    border: 1px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 20%;
+}
+
+.box1:hover{
+    background-image: url(goku2.jpg);
+}
+.box2:hover{
+    background-image: url(vegeta-ultra-ego.jpg);
+}
+
+.layout:hover{
+    background-color: rgb(196, 24, 158);
+}
+
+.btn:hover{
+    background-color: rgb(20, 189, 219);
+}
+.second_layout:hover,.img3:hover{
+    background-color: aqua;
+}
